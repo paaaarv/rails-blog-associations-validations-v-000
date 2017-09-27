@@ -1,6 +1,6 @@
-class AddContentToPosts<ActiveRecord::Migration 
+class AddContentToPosts<ActiveRecord::Migration
 
-  def change 
+  def change
     add_column :posts, :content, :text
-  end 
+  end
 end
